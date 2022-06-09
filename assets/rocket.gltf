@@ -1,0 +1,319 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_unlit"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Circle.001"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "mesh" : 1,
+            "name" : "Circle",
+            "rotation" : [
+                0.32954850792884827,
+                -0.0977330207824707,
+                0.33046701550483704,
+                0.8789980411529541
+            ],
+            "translation" : [
+                3.923279285430908,
+                2.6874337196350098,
+                0
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Icosphere.033",
+            "rotation" : [
+                0.005602047313004732,
+                0.9698656797409058,
+                -0.022401079535484314,
+                0.2425435334444046
+            ],
+            "scale" : [
+                1.8853354454040527,
+                1.885335087776184,
+                1.8853354454040527
+            ],
+            "translation" : [
+                -4.312586784362793,
+                -7.549361705780029,
+                4.950911998748779
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "extensions" : {
+                "KHR_materials_unlit" : {}
+            },
+            "name" : "Material.003",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.014285743236541748,
+                    0.014285743236541748,
+                    0.014285743236541748,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9
+            }
+        },
+        {
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_unlit" : {}
+            },
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9
+            }
+        },
+        {
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_unlit" : {}
+            },
+            "name" : "Material.004",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Circle.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Circle",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Icosphere",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 570,
+            "max" : [
+                2.7166242599487305,
+                4.818756103515625,
+                2.4003021717071533
+            ],
+            "min" : [
+                -1.4408210515975952,
+                -2.4219284057617188,
+                -2.400301694869995
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 570,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 570,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 888,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 570,
+            "max" : [
+                2.6811718940734863,
+                4.784078598022461,
+                2.3546621799468994
+            ],
+            "min" : [
+                -1.3972225189208984,
+                -2.383152484893799,
+                -2.354661703109741
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 570,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 570,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 888,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 8988,
+            "max" : [
+                1.6953051090240479,
+                5.424746036529541,
+                5.572877407073975
+            ],
+            "min" : [
+                -3.7745187282562256,
+                -1.794904112815857,
+                -1.2219442129135132
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 8988,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 8988,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 8988,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 6840,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6840,
+            "byteOffset" : 6840
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4560,
+            "byteOffset" : 13680
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1776,
+            "byteOffset" : 18240
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6840,
+            "byteOffset" : 20016
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6840,
+            "byteOffset" : 26856
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4560,
+            "byteOffset" : 33696
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1776,
+            "byteOffset" : 38256
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 107856,
+            "byteOffset" : 40032
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 107856,
+            "byteOffset" : 147888
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 71904,
+            "byteOffset" : 255744
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17976,
+            "byteOffset" : 327648
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 345624,
+            "uri" : "rocket.bin"
+        }
+    ]
+}
